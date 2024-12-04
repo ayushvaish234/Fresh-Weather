@@ -129,4 +129,22 @@ h1 {
   outline: none;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+@media only screen and (max-width: 600px) {
+    /* Adjust the font size for smaller screens */
+    .footer-name {
+        font-size: 14px;
+        bottom: 5px;
+        right: 5px;
+    }
 
+    /* Adjust layout for smaller screens */
+    .container {
+        padding: 10px;
+    }
+
+    /* Example of making elements stack vertically on smaller screens */
+    .some-element {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
