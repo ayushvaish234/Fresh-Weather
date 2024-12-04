@@ -23,7 +23,6 @@ body {
 h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-
 }
 
 .search-box input {
@@ -129,22 +128,55 @@ h1 {
   outline: none;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+
+/* Media Query for Mobile Devices */
 @media only screen and (max-width: 600px) {
-    /* Adjust the font size for smaller screens */
-    .footer-name {
-        font-size: 14px;
-        bottom: 5px;
-        right: 5px;
-    }
+  /* Adjust the width of the weather app container */
+  .weather-app {
+    width: 90%;
+    padding: 20px;
+  }
 
-    /* Adjust layout for smaller screens */
-    .container {
-        padding: 10px;
-    }
 
-    /* Example of making elements stack vertically on smaller screens */
-    .some-element {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+
+  .search-box input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .search-box button {
+    width: 100%;
+  }
+
+ 
+  .weather-info {
+    padding: 15px;
+  }
+
+  .weather-info h2 {
+    font-size: 1.3rem;
+  }
+
+  .weather-info p {
+    font-size: 1rem;
+  }
+
+  .weather-details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .weather-info img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .search-box {
+    gap: 5px;
+  }
 }
