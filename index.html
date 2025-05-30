@@ -7,28 +7,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="weather-app">
-    <h1>Fresh-Weather</h1>
-    <div class="search-box">
+  <header>
+    <h1 id="logo">Fresh-Weather</h1>
+     <div class="search-box">
       <input type="text" id="city-input" placeholder="Enter city name">
       <div id="suggestions" class="suggestions"></div>
       <button id="search-btn">Search</button>
     </div>
-    <div class="weather-info">
-      <div class="weather-details">
-        <img id="weather-icon" alt="Weather Icon" />
-        <div class="text-info">
-          <h2 id="city-name"></h2>
-          <p id="temperature"></p>
-          <p id="aqi-value"></p> 
-          <p id="conditions"></p>
-          <p id="humidity"></p>
-          <p id="wind-speed"></p>
-          <p id="aqi-value"></p> 
+    </header>
+       
+<div class="weather-app">
+  <div class="city-name" id="city-name"></div>
+  <div id="placeholder-message" class="placeholder-message">
+    <img src="./image/sunny.png" alt="Sunny" class="placeholder-img" />
+    <div>I'm just trying to forecast how your day is going!</div>
+  </div>
+  <div class="weather-cards">
+    <div class="weather-card">
+      <img id="weather-icon" alt="Weather Icon" />
+      <div class="weather-info">
+        <div class="main-row">
+          <span id="temperature"></span>
+        </div>
+        <div class="details-row">
+          <span id="conditions"></span>
+          <span id="aqi-value"></span>
+          <span id="humidity"></span>
+          <span id="wind-speed"></span>
         </div>
       </div>
     </div>
   </div>
+</div>
   <script src="script.js"></script>
 </body>
 </html>
