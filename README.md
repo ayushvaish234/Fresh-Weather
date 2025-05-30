@@ -1,13 +1,33 @@
-# Fresh-Weather
-Fresh-Weather: 
-A website that provides real-time weather updates for any city in the world. Users can check the temperature, humidity, wind speed, and current weather conditions. The site also displays weather icons and changes the background image based on the weather conditions.
+# 🌤️ Fresh-Weather
 
-## Features:
-Search weather by city name.
-Displays current temperature, humidity, wind speed, and conditions.
-Shows weather icons for easy visual representation.
-Changes background image based on the weather (e.g., sunny, rainy, snowy).
-Option to use the browser's geolocation to get weather for the current location.
-## Technologies Used:
-HTML, CSS, and JavaScript
-OpenWeather API for fetching weather data
+**Fresh-Weather** is a modern, responsive weather web application that provides real-time weather and air quality data for cities worldwide. It uses the OpenWeatherMap API and features live city suggestions and geolocation-based weather loading.
+
+---
+
+## 🔥 Features
+
+- 🔍 Search weather by city name (with autocomplete suggestions)
+- 📍 Get local weather using browser geolocation
+- 🌡️ Real-time temperature, humidity, wind speed, and condition display
+- 🌫️ Air Quality Index (AQI) with descriptive labels (Good, Moderate, etc.)
+- 🖼 Weather icons and responsive UI design
+- 📱 Mobile-friendly layout with touch support
+
+---
+
+## 🚀 Live Demo
+
+> You can deploy this using [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or GitHub Pages.  
+> *Live link placeholder:* https://yourusername.github.io/fresh-weather/
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Markup structure
+- **CSS3** – Responsive design & layout
+- **JavaScript (Vanilla)** – Dynamic functionality
+- **OpenWeatherMap API** – Weather and AQI data
+
+---
+
