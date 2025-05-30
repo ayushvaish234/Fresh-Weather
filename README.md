@@ -14,14 +14,6 @@
 - 📱 Mobile-friendly layout with touch support
 
 ---
-
-## 🚀 Live Demo
-
-> You can deploy this using [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or GitHub Pages.  
-> *Live link placeholder:* https://yourusername.github.io/fresh-weather/
-
----
-
 ## 🛠️ Tech Stack
 
 - **HTML5** – Markup structure
