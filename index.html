@@ -22,23 +22,50 @@
     <img src="./image/sunny.png" alt="Sunny" class="placeholder-img" />
     <div>I'm just trying to forecast how your day is going!</div>
   </div>
+  <div class="weather-app">
+  <div class="city-name" id="city-name"></div>
+
+  <div id="placeholder-message" class="placeholder-message">
+    <img src="./image/sunny.png" alt="Sunny" class="placeholder-img" />
+    <div>I'm just trying to forecast how your day is going!</div>
+  </div>
+
   <div class="weather-cards">
+    <!-- Temperature Card -->
     <div class="weather-card">
+      <h3>Temperature</h3>
       <img id="weather-icon" alt="Weather Icon" />
-      <div class="weather-info">
-        <div class="main-row">
-          <span id="temperature"></span>
-        </div>
-        <div class="details-row">
-          <span id="conditions"></span>
-          <span id="aqi-value"></span>
-          <span id="humidity"></span>
-          <span id="wind-speed"></span>
-        </div>
-      </div>
+      <p id="temperature"></p>
+    </div>
+
+    <!-- Conditions Card -->
+    <div class="weather-card">
+      <h3>Conditions</h3>
+      <p id="conditions"></p>
+    </div>
+
+    <!-- AQI Card -->
+    <div class="weather-card">
+      <h3>Air Quality</h3>
+      <p id="aqi-value"></p>
+    </div>
+
+    <!-- Humidity Card -->
+    <div class="weather-card">
+      <h3>Humidity</h3>
+      <p id="humidity"></p>
+    </div>
+
+    <!-- Wind Speed Card -->
+    <div class="weather-card">
+      <h3>Wind Speed</h3>
+      <p id="wind-speed"></p>
     </div>
   </div>
+</div>
+
 </div>
   <script src="script.js"></script>
 </body>
 </html>
+
