@@ -1,0 +1,9 @@
+.input-group {
+  overflow: visible !important;
+}
+
+#suggestions {
+  top: 100%;
+  left: 0;
+  right: 0;
+}
